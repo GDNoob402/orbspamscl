@@ -10,5 +10,11 @@
      "gamemode": "cube",
     "enjoyment": "Cube",
     "records": [
+         {
+            "user": "Aerubos",
+            "link": "https://youtu.be/kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
