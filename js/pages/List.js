@@ -55,7 +55,7 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Actual Position</div>
+                            <div class="type-title-sm">Gamemode</div>
                             <p>{{ level.enjoyment || 'None (0)' }}</p>
                         </li>
                     </ul>
