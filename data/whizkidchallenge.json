@@ -10,5 +10,29 @@
     "enjoyment": "Cube",
      "gamemode": "cube",
     "records": [
+         {
+            "user": "EmpanadR",
+            "link": "https://youtube.com/clip/UgkxIIrnzAdirOX1P2ZNbJdrx4e7o3WpFe8M?si=t7XT5_CzSkrQon5S",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Whizkid05",
+            "link": "https://discord.com/channels/1268386437116465205/1268386437875765290/1448248068129554564",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "ywuchaos",
+            "link": "https://youtu.be/dBemGYlxtrk",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Ptyw",
+            "link": "https://discord.com/channels/1268386437116465205/1268386862079283222/1493739736605397153",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
