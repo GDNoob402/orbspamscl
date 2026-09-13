@@ -141,7 +141,7 @@ export default {
                        no random triggers
                     </p>
                      <p>
-                        levels must be possible in under 16 cps, do NOT use a loophole to get around this, use common sense to determine the rule's use
+                        levels must be possible in under 18 cps, do NOT use a loophole to get around this, use common sense to determine the rule's use
                     </p>
                     <p>
                         try not to use any art importer mods because they can break level id's
