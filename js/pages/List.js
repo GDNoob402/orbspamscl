@@ -78,9 +78,9 @@ export default {
                     </table>
                 </div>
                 <div v-else-if="!selected" class="level" style="height: 100%; display: flex; justify-content: center; align-items: center; text-align: center;">
-                    <h2>Welcome to the Community Demon List!</h2>
-                    <p>This is a list where you can vote on placements of levels!</p>
-                    <p>Join the discord to vote!</p>
+                    <h2>Welcome to the Orb SCL!</h2>
+                    <p>Click the levels on the left side to see information about them! For more information about the submission rules check the right side!</p>
+                    <p>Make sure to join the discord!</p>
                     <h2>le daily</h2>
                     <p>{{ leDaily[0][0].name }} ({{ leDaily[0][0].id }})</p>
                     <button class="btn" @click="selected = Math.ceil(Math.random() * list.length)">
@@ -129,7 +129,7 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        You must be apart of the discord server to vote on placements
+                        rule
                     </p>
                     <p>
                         Level must be harder than the level at the lowest spot on the list.
