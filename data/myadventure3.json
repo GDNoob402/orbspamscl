@@ -10,5 +10,17 @@
     "enjoyment": "Cube",
      "gamemode": "cube",
     "records": [
+         {
+            "user": "shafikdabest",
+            "link": "https://youtu.be/VM7YN0_nURg?si=bk8evuLkBC0Kactd",
+            "percent": 100,
+            "hz": 0
+        },
+         {
+            "user": "Aerubos",
+            "link": "https://youtu.be/kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
