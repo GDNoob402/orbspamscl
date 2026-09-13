@@ -10,5 +10,11 @@
      "gamemode": "robot",
     "enjoyment": "Robot",
     "records": [
+         {
+            "user": "GMDMIRROR",
+            "link": "https://www.youtube.com/watch?v=ckYuRALqMfg",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
