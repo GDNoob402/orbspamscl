@@ -10,5 +10,23 @@
     "enjoyment": "Cube",
      "gamemode": "dual",
     "records": [
+         {
+            "user": "shafikdabest",
+            "link": "https://discord.com/channels/1548528043247673365/1548605643672522872/1548614846419968081",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Aerubos",
+            "link": "https://www.youtube.com/watch?v=kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Xed",
+            "link": "https://medal.tv/games/geometry-dash/clips/nw9eSvObg9qrJ86lB?invite=cr-MSxNTk0sNDI2OTQ3NzUx",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
