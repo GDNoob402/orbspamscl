@@ -132,7 +132,7 @@ export default {
                         <strong>level requirements:</strong>
                     </p>
                     <p>
-                        levels MUST be blue/green orb spam
+                        levels MUST be controlled blue/green orb spam
                     </p>
                     <p>
                         if the level uses a nong please add that in your submission
