@@ -129,26 +129,41 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        rule
+                        <strong>level requirements:</strong>
                     </p>
                     <p>
-                        Level must be harder than the level at the lowest spot on the list.
+                        levels MUST be blue/green orb spam
                     </p>
                     <p>
-                        No inappropriate levels, as this includes NSFW levels/videos.
+                        if the level uses a nong please add that in your submission
                     </p>
                     <p>
-                       Your recording must include a cheat indicator if you dont have clicks, rule does not apply to dexter
+                       no random triggers
                     </p>
                     <p>
-                        Levels have to be over 29 seconds
+                        try not to use any art importer mods because they can break level id's
                     </p>
                     <p>
-                        Secret ways are <strong>absolutely</strong> prohibited.
+                        <strong>verification and record requirements:</strong>
                     </p>
                       <p>
-                        When submitting if you submit more than one level at a time it is prefered that you upload in a compilation
+                        levels must be verified legitimately
                     </p>
+                     <p>
+                        must have AUDIBLE clicks in a verification
+                     </p>
+                      <p>
+                        if you verify a level with a secret way it will be placed using the secret way
+                     </p>
+                      <p>
+                        must show the level endscreen
+                     </p>
+                      <p>
+                         must have endscreen cheat indicator
+                     </p>
+                      <p>
+                         must show previous attempt
+                     </p>
                 </div>
             </div>
         </main>
