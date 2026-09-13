@@ -10,5 +10,17 @@
     "enjoyment": "Cube",
      "gamemode": "dual",
     "records": [
+         {
+            "user": "shafikdabest",
+            "link": "https://discord.com/channels/1548528043247673365/1548598226364399676/1548614751708385282",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Aerubos",
+            "link": "https://www.youtube.com/watch?v=kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
