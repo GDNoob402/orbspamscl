@@ -10,5 +10,11 @@
     "gamemode": "dual",
     "enjoyment": "Cube/Wave",
     "records": [
+         {
+            "user": "GMDMIRROR",
+            "link": "https://youtu.be/otE45KwYLUU?si=qb8iWOoIbVvt-mJz",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
