@@ -1,15 +1,13 @@
 :root {
-     --color-background: #1C1B1F;
-    --color-on-background: black;
-    --color-background-hover: #eeeeef;
+    --color-background: black;
+    --color-on-background: white;
+    --color-background-hover: #e09961;
     --color-on-background-hover: black;
-    --color-primary: #eeeeef;
+    --color-primary: #0070FF;
     --color-on-primary: black;
     --color-error: #de0000;
     --color-on-error: black;
-	--the-button-on-top: brightness(0) saturate(100%);
-	--level-button: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
-	--color-background-list: #fbfbfbd
+    --level-button: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
 main.dark,
