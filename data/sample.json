@@ -1,16 +1,14 @@
 {
     "id": 145632301,
-    "name": "Forest Corridor",
-    "author": "daunlabavoi",
-    "creators": ["daunlabavoi"],
-    "verifier": "ad3us",
-    "verification": "https://youtu.be/DniScSHVKsI?si=Lf716ZXsUudEE_Rl&t=135",
+    "name": "Level",
+    "author": "Creator",
+    "creators": ["Creator"],
+    "verifier": "Verifier",
+    "verification": "YTLink",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
-         {
-        }
     ]
 }
