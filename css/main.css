@@ -1,18 +1,5 @@
 :root {
-    --color-background: black;
-    --color-on-background: white;
-    --color-background-hover: #e09961;
-    --color-on-background-hover: black;
-    --color-primary: #0070FF;
-    --color-on-primary: black;
-    --color-error: #de0000;
-    --color-on-error: black;
-    --level-button: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
-}
-
-main.dark,
-header.dark {
-    color-scheme: dark;
+     color-scheme: dark;
     --color-background: black;
     --color-on-background: white;
     --color-background-hover: #534461;
@@ -23,6 +10,19 @@ header.dark {
     --color-error: #de0000;
     --color-on-error: white;
     --level-button: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+main.dark,
+header.dark {
+    --color-background: black;
+    --color-on-background: white;
+    --color-background-hover: #e09961;
+    --color-on-background-hover: black;
+    --color-primary: #0070FF;
+    --color-on-primary: black;
+    --color-error: #de0000;
+    --color-on-error: black;
+    --level-button: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 main.dark,
 header.dark {
