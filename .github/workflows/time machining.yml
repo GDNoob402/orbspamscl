@@ -1,0 +1,27 @@
+name: make copy of old version of _list.json happy face
+
+on:
+  push:
+    paths: [data/_list.json]
+
+permissions:
+  contents: write
+
+jobs:
+  dostuf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - run: git show HEAD^:data/_list.json | python -m json.tool > /dev/null
+      - run: |
+          date="$(date +%s)"
+          git show HEAD^:data/_list.json > "data/oldlists/$date.json"
+          jq ". + [\"$date\"]" data/_oldlists.json > whatever.json && mv whatever.json data/_oldlists.json
+          git config user.name timemachine
+          git config user.email timemachine@gmail.com
+          git add "data/oldlists/" data/_oldlists.json
+          git commit -m "w cat    meow"
+          git push
+      

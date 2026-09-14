@@ -40,3 +40,16 @@ export function shuffle(array) {
 
     return array;
 }
+export function getLevelThumbnail(levelPos, list) {
+    const currentLevel = list?.[levelPos]?.[0];
+
+    return currentLevel
+        ? setUpThumbnailStyle(currentLevel.name)
+        : null;
+}
+function setUpThumbnailStyle(levelName) {
+    return `background-image: var(--level-button), url(${getThumbnailImage(levelName)}); background-size: cover; background-repeat: no-repeat; background-position: center;`;
+}
+export function getThumbnailImage(lvlName) {
+    return `../assets/levels/${encodeURIComponent(lvlName.replaceAll(/[<>?*":\/|\\']/g, ""))}.png`;
+}

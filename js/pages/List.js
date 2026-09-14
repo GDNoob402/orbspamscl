@@ -1,7 +1,7 @@
 import { store } from "../main.js";
-import { embed } from "../util.js";
 import { score } from "../score.js";
-import { fetchChangelog, fetchEditors, fetchList, fetchdailylul } from "../content.js";
+import { embed, getLevelThumbnail } from "../util.js";
+import { fetchChangelog, fetchEditors, fetchList, fetchdailylul, fetchDates } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -22,18 +22,48 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-            <input v-model="searchQuery" placeholder="Input text to Filter! here..." class="btn" type="text" id="filterForLevelName" style="width: 80%; margin-bottom: 0.5em;">   
+                <div style="display: flex; gap: 1em;">
+                    <button @click="showTimeMachine = true" class="btn">
+                        <img src="assets/calendar.svg" alt="calender" style="filter: var(--the-button-on-top);">
+                    </button>
+                    <input v-model="searchQuery" placeholder="Input text to Filter! here..." class="btn" type="text" id="filterForLevelName" style="width: 80%;">
+                </div>
+                <div v-if="showTimeMachine" style="display: inline; z-index: 2; position: fixed; inset: 50%; background-color: #000000aa; overflow: auto; width: 100%; height: 100%; margin: auto; left: 0;">
+                        <div style="display: inline; z-index: 3; position: fixed; inset: 50%; background-color: var(--color-background); overflow: auto; width: 50%; height: 80%; border: 4px solid var(--color-primary); border-radius: 2em; justify-self: center; align-self: center; padding: 1em;">
+                            <div style="display: flex;">
+                                <a style="z-index: 4;" @click="showTimeMachine = false">
+                                        <img src="../assets/back.svg" style="filter: brightness(0.5); height: 1.5rem;">
+                                </a>
+                                <h1 style="margin: auto;">Time machine thing</h1>
+                            </div>
+                            <p style="text-align: center; padding-top: 1em;">Select a date here!</p>
+                            <div>
+                            <button class="leaderboard-button" style="margin: auto; margin-block: 1em; display: flex;" onclick="window.location.href='?time=now'">Current Day</button>
+                                <template v-for="date in dates.slice().reverse()">
+                                    <button class="leaderboard-button" style="margin: auto; margin-block: 1em; display: flex;" :onclick="\`window.location.href='?time=\${date}'\`" v-text="\`\${new Date(Number(date.concat('000'))).toLocaleString()}\`"></button>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
                 <table class="list" v-if="list && list.length">
                     <tr v-for="(item, i) in filteredListDisplay" :key="item.originalIndex">
-                        <td class="rank">
-                            <p v-if="item.originalIndex + 1 <= 150" class="type-label-lg">#{{ item.originalIndex + 1 }}</p>
-                            <p v-else class="type-label-lg">Legacy</p>
-                        </td>
-                        <td class="level" :class="{ 'active': selected == item.originalIndex, 'error': !item.level }">
-                            <button @click="selected = item.originalIndex">
-                                <span class="type-label-lg">{{ item.level?.name || \`Error (\${err}.json)\` }}</span>
-                            </button>
-                        </td>
+                        <template v-if="gamemodeAsked && item.level?.gamemode == gamemodeAsked || !gamemodeAsked || gamemodeAsked == 'all' || (gamemodeAsked == 'dual' && item.level?.gamemode)">
+                            <td class="level" :class="{ 'active': selected === item.originalIndex, 'error': !item.level }">
+                                    <button id="levelThumbnailReal" @click="selected = item.originalIndex" style="background-color: rgb(255 0 0 / 0); width: 100%; margin: 0.5em; display: flex; align-items: center; gap: 1rem;" :style="getLevelThumbnail(item.originalIndex, list)" :class="{ 'active': selected === item.originalIndex, 'error': !item.level, 'golden': item.level?.ullmarker &&  params.get('list') == 'impossible' }" class="btnlvl">
+                                        <p style="white-space: nowrap; color: var(--color-on-primary);">#{{ item.originalIndex + 1 }}</p>
+                                        <div style="width: inherit;">
+                                            <div style="display: flex">
+                                                <span class="type-label-lg">{{ item.level?.name || \`Error (\${item.err}.json)\` }}</span>
+                                                <span v-if="params.get('time')?.toLowerCase() != 'now' && params.get('time')" class="type-label-sm" style="font-style: italic; font-weight: 300; margin-left: 1rem;" v-text="\`currently #\${(listLatest ?? []).findIndex(([a]) => a?.name === item.level?.name) + 1 }\`"></span>
+                                            </div>
+                                            <div style="display: flex; padding-top: 0.5em;">
+                                                <span v-if="item.level?.creators.length == 1" class="type-label-sm" style="font-style: italic; font-weight: 300;">{{ item.level?.creators[0] || "???" }}</span>
+                                                <span v-else-if="item.level?.creators.length == 2" class="type-label-sm" style="font-style: italic; font-weight: 300;">{{ item.level?.creators[0] || "???" }}, {{ item.level?.creators[1] || "???" }}</span>
+                                                <span v-else-if="item.level?.creators.length > 2" class="type-label-sm" style="font-style: italic; font-weight: 300;">{{ item.level?.creators[0] || "???" }}, {{ item.level?.creators[1] || "???" }}...</span>
+                                            </div>
+                                    </button>
+                                </td> 
+                            </template>
                     </tr>
                 </table>
                 <p v-if="list && list.length > 0 && filteredListDisplay && filteredListDisplay.length === 0" class="type-body-lg">
@@ -86,6 +116,31 @@ export default {
                     <button class="btn" @click="selected = Math.ceil(Math.random() * list.length)">
                         <span class="type-label-lg">I'm feeling lucky</span>
                     </button>
+                    <button class="btn" @click="showFilter = !showFilter">
+                    	<h2 v-if="showFilter">Select Filters ⏶</h2>
+                        <h2 v-else>Select Filters ⏷</h2>
+					</button>
+					<form v-if="showFilter" action="#" class="type-label-lg" style="border: solid 0.25em var(--color-on-primary); border-radius: 1em; padding: 1em;">
+						<div style="align-items: center;">
+                            <div style="margin: 0.5em;">
+                                <label for="gamemode">pick gamemode:  </label>
+                                <select class="btn" v-model="gamemodeSelected" id="gamemode" name="gamemode">
+                                    <option class="type-label-lg" value="All" selected>Any Gamemode</option>
+                                    <option class="type-label-lg" value="cube">Cube</option>
+                                    <option class="type-label-lg" value="ship">Ship</option>
+                                    <option class="type-label-lg" value="ball">Ball</option>
+                                    <option class="type-label-lg" value="uFO">UFO</option>
+                                    <option class="type-label-lg" value="wave">Wave</option>
+                                    <option class="type-label-lg" value="robot">Robot</option>
+                                    <option class="type-label-lg" value="spider">Spider</option>
+                                    <option class="type-label-lg" value="swing">Swing</option>
+                                    <option class="type-label-lg" value="dual">Dual</option>
+                                </select>
+                            </div>
+					    	<button class="btn" type="submit">Filter!</button>
+						</div>
+					</form>
+                    <button class="btn" @onclick="location.search = undefined">Reset Filter!</button>
                     <h2>Changelog</h2>
                     <main style="display: flex; flex-direction: column; align-items: left; gap: 24px; text-align: left; overflow: hidden; overflow-y: auto; max-height: 300px; width: 700px; border: 3px solid var(--color-primary); border-radius: 5px;">
                         <div style="display: flex; flex-direction: column; align-items: left; gap: 24px; overflow: visible; margin-left: 10px; margin-top: 12px">
@@ -174,9 +229,13 @@ export default {
         loading: true,
         selected: null,
         errors: [],
-        roleIconMap,
         searchQuery: '',
-        store
+        showTimeMachine: false,
+        showFilter: false,
+        params: new URLSearchParams(document.location.search),
+        gamemodeAsked: null,
+        roleIconMap,
+        store,
     }),
     computed: {
         level() {
@@ -218,6 +277,10 @@ export default {
         this.editors = await fetchEditors();
         this.changelog = await fetchChangelog();
         this.leDaily = await fetchdailylul();
+        this.dates = await fetchDates();
+
+        this.gamemodeAsked = this.params.get("gamemode");
+
         if (Math.floor(Math.random() * 100) == 12) {
             localStorage.setItem('purple', "true");
         }
@@ -245,5 +308,6 @@ export default {
     methods: {
         embed,
         score,
+        getLevelThumbnail,
     },
 };

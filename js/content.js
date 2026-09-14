@@ -45,7 +45,15 @@ export async function fetchEditors() {
         return null;
     }
 }
-
+export async function fetchDates() {
+    try {
+        const datesResults = await fetch(`${dir}/_oldlists.json`);
+        const dates = await datesResults.json();
+        return dates;
+    } catch {
+        return null;
+    }
+}
 export async function fetchLeaderboard() {
     const list = await fetchList();
 
