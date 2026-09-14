@@ -3,12 +3,36 @@
     "name": "my adventure 3",
     "author": "Ptyw ",
     "creators": ["Ptyw "],
-    "verifier": "Ptyw ",
+    "verifier": "Ptyw",
     "verification": "https://www.youtube.com/watch?v=EojcbMWcu2g",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "enjoyment": "Cube",
      "gamemode": "cube",
     "records": [
+         {
+            "user": "shafikdabest",
+            "link": "https://youtu.be/VM7YN0_nURg?si=bk8evuLkBC0Kactd",
+            "percent": 100,
+            "hz": 0
+        },
+         {
+            "user": "Aerubos",
+            "link": "https://youtu.be/kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "GMDMIRROR",
+            "link": "https://www.youtube.com/watch?v=OwDvlR2IFbM",
+            "percent": 100,
+            "hz": 0
+        },
+           {
+            "user": "ad3us",
+            "link": "https://youtu.be/7qfv8RJAt6Q",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }

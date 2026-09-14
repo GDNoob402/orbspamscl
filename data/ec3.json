@@ -3,12 +3,24 @@
     "name": "Emp Challenge 3",
     "author": "puremidnight",
     "creators": ["puremidnight"],
-    "verifier": "003",
+    "verifier": "2003",
     "verification": "https://www.youtube.com/watch?v=f8z5sgzZkIg",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+           {
+            "user": "ad3us",
+            "link": "https://youtu.be/DniScSHVKsI?si=gNLQfQPgFfrmEXDX&t=121",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "ywuchaos",
+            "link": "https://x.com/yowutupchaos/status/2096762508614791571/video/1?s=46",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }

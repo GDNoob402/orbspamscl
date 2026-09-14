@@ -1,0 +1,26 @@
+{
+    "id": 148797148,
+    "name": "KRICHI",
+    "author": "Aerubos",
+    "creators": ["Aerubos"],
+    "verifier": "Aerubos",
+    "verification": "https://www.youtube.com/watch?v=EEwEt4ByJE0",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "enjoyment": "Cube",
+     "gamemode": "dual",
+    "records": [
+           {
+            "user": "ad3us",
+            "link": "https://youtu.be/7qfv8RJAt6Q",
+            "percent": 100,
+            "hz": 0
+        },
+           {
+            "user": "shafikdabest",
+            "link": "https://youtu.be/h93_NZHJomQ",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}

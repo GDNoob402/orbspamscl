@@ -4,11 +4,27 @@
     "author": "puremidnight ",
     "creators": ["puremidnight"],
     "verifier": "shafikdabest",
+<<<<<<< HEAD
     "verification": "https://medal.tv/games/geometry-dash/clip/nq9IRbZLHeToAZpzF?invite=cr-MSxIVHYsNzY2MjA5MTMw",
+=======
+    "verification": "https://youtu.be/NwvKUZdbDyQ",
+>>>>>>> 4222c646ac14652af3a921b0cd345d81fe205442
     "percentToQualify": "100",
     "password": "Free To Copy",
     "gamemode": "cube",
     "enjoyment": "Cube",
     "records": [
+         {
+            "user": "Aerubos",
+            "link": "https://youtu.be/kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        },
+           {
+            "user": "ad3us",
+            "link": "https://youtu.be/7qfv8RJAt6Q",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }

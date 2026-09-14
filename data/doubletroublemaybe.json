@@ -4,11 +4,17 @@
     "author": "shafikdabest",
     "creators": ["shafikdabest"],
     "verifier": "shafikdabest",
-    "verification": "https://youtube.com/shorts/Oqp2RAEexMs?si=XQfKhqcsOOLX0MES",
+    "verification": "https://youtu.be/ieXFdo90ltQ",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "enjoyment": "Cube/Ufo",
     "gamemode": "dual",
     "records": [
+           {
+            "user": "ad3us",
+            "link": "https://youtu.be/7qfv8RJAt6Q",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }

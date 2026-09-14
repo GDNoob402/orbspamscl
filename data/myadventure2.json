@@ -1,24 +1,18 @@
 {
-    "id": 142351524,
-    "name": "my adventure 4",
+    "id": 142209198,
+    "name": "my adventure 2",
     "author": "Ptyw ",
     "creators": ["Ptyw "],
     "verifier": "Ptyw",
-    "verification": "https://www.youtube.com/watch?v=zKe6LORWzOM",
+    "verification": "",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "enjoyment": "Cube",
      "gamemode": "cube",
     "records": [
-          {
+         {
             "user": "shafikdabest",
             "link": "https://youtu.be/VM7YN0_nURg?si=bk8evuLkBC0Kactd",
-            "percent": 100,
-            "hz": 0
-        },
-         {
-            "user": "Aerubos",
-            "link": "https://youtu.be/kyELtjOlbIY",
             "percent": 100,
             "hz": 0
         },

@@ -1,0 +1,38 @@
+{
+    "id": 148794209,
+    "name": "Learning",
+    "author": "PengusP",
+    "creators": ["PengusP"],
+    "verifier": "PengusP",
+    "verification": "https://www.youtube.com/watch?v=q4jetvJj1MU",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "enjoyment": "Cube",
+     "gamemode": "dual",
+    "records": [
+         {
+            "user": "shafikdabest",
+            "link": "https://discord.com/channels/1548528043247673365/1548605643672522872/1548614846419968081",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Aerubos",
+            "link": "https://www.youtube.com/watch?v=kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "Xed",
+            "link": "https://medal.tv/games/geometry-dash/clips/nw9eSvObg9qrJ86lB?invite=cr-MSxNTk0sNDI2OTQ3NzUx",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "ad3us",
+            "link": "https://youtu.be/7qfv8RJAt6Q",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}

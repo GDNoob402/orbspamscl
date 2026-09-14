@@ -4,11 +4,17 @@
     "author": "daunlabavoi",
     "creators": ["daunlabavoi"],
     "verifier": "ad3us",
-    "verification": "cantfindverificationvideo",
+    "verification": "https://youtu.be/DniScSHVKsI?si=Lf716ZXsUudEE_Rl&t=135",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+         {
+            "user": "ywuchaos",
+            "link": "https://www.youtube.com/shorts/1wLbhuMVVRA",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }

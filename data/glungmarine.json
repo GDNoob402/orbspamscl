@@ -1,18 +1,18 @@
 {
-    "id": 145505442,
-    "name": "KYS CORRIDOR mini",
-    "author": "ywuchaos",
-    "creators": ["ywuchaos"],
-    "verifier": "ywuchaos",
-    "verification": "https://www.youtube.com/watch?v=mGQBjzOmr8g",
+    "id": 148820408,
+    "name": "glungmarine",
+    "author": "zBean1e",
+    "creators": ["zBean1e"],
+    "verifier": "bean1e",
+    "verification": "https://www.youtube.com/watch?v=efybpumXxDM",
     "percentToQualify": "100",
     "password": "Free To Copy",
-     "gamemode": "cube",
     "enjoyment": "Cube",
+     "gamemode": "dual",
     "records": [
-           {
+          {
             "user": "shafikdabest",
-            "link": "https://medal.tv/games/geometry-dash/clips/nw3NxEFh7a2qOeLDn?invite=cr-MSxNQ1YsNzY2MjA5MTMw",
+            "link": "https://medal.tv/games/geometry-dash/clips/nwftX70ziThQu4Yh2?invite=cr-MSxWaGosNzY2MjA5MTMw",
             "percent": 100,
             "hz": 0
         },

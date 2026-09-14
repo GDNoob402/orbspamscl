@@ -4,11 +4,33 @@
     "author": "shafikdabest",
     "creators": ["shafikdabest"],
     "verifier": "shafikdabest",
+<<<<<<< HEAD
     "verification": "https://medal.tv/games/geometry-dash/clip/nvSiPJ2KEPJr-0b70?invite=cr-MSxmOFYsNzY2MjA5MTMw",
+=======
+    "verification": "https://youtu.be/fLpNdeVEQKM",
+>>>>>>> 4222c646ac14652af3a921b0cd345d81fe205442
     "percentToQualify": "100",
     "password": "Free To Copy",
      "gamemode": "cube",
     "enjoyment": "Cube",
     "records": [
+         {
+            "user": "Aerubos",
+            "link": "https://youtu.be/kyELtjOlbIY",
+            "percent": 100,
+            "hz": 0
+        },
+           {
+            "user": "ad3us",
+            "link": "https://youtu.be/7qfv8RJAt6Q",
+            "percent": 100,
+            "hz": 0
+                },
+           {
+            "user": "ywuchaos",
+            "link": "https://discord.com/channels/1548528043247673365/1548931822249836556/1548931867233751052",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }

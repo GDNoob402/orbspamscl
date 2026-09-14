@@ -187,13 +187,16 @@ export default {
                         <strong>level requirements:</strong>
                     </p>
                     <p>
-                        levels MUST be controlled blue/green orb spam
+                        levels MUST be controlled blue/green orb spam with an angle of 35 degrees or higher
                     </p>
                     <p>
                         if the level uses a nong please add that in your submission
                     </p>
                     <p>
                        no random triggers
+                    </p>
+                     <p>
+                        levels must be possible in under 18 cps, do NOT use a loophole to get around this, use common sense to determine the rule's use
                     </p>
                     <p>
                         try not to use any art importer mods because they can break level id's
