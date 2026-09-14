@@ -41,7 +41,7 @@ export function shuffle(array) {
     return array;
 }
 export function getLevelThumbnail(levelPos, list) {
-    const currentLevel = list?.[levelPos]?.[0];
+    const currentLevel = list[levelPos][0];
 
     return currentLevel
         ? setUpThumbnailStyle(currentLevel.name)
