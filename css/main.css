@@ -1,15 +1,15 @@
 :root {
-     color-scheme: dark;
-    --color-background: black;
-    --color-on-background: white;
-    --color-background-hover: #534461;
-    --color-on-background-hover: white;
-    --color-primary: black;
-    --color-primary-disabled: #1f213c;
-    --color-on-primary: white;
+     --color-background: #fbfbfb;
+    --color-on-background: black;
+    --color-background-hover: #eeeeef;
+    --color-on-background-hover: black;
+    --color-primary: #eeeeef;
+    --color-on-primary: black;
     --color-error: #de0000;
-    --color-on-error: white;
-    --level-button: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    --color-on-error: black;
+	--the-button-on-top: brightness(0) saturate(100%);
+	--level-button: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+	--color-background-list: #fbfbfbd
 }
 
 main.dark,
