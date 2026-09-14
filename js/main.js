@@ -1,7 +1,7 @@
 import routes from './routes.js';
 
 export const store = Vue.reactive({
-    dark: JSON.parse(localStorage.getItem('dark')) || false,
+    dark: JSON.parse(localStorage.getItem('dark')) || true,
     purple: JSON.parse(localStorage.getItem('purple')) || false,
     toggleDark() {
         this.dark = !this.dark;

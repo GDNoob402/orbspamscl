@@ -56,6 +56,15 @@
                 <div class="nav__actions">
                     <button
                         class="nav__icon"
+                        onclick="document.body = document.createElement('body')"
+                    >
+                        <img
+                            src="/assets/sobaken.jpg"
+                            alt=""
+                        />
+                    </button>
+                    <button
+                        class="nav__icon"
                         @click.prevent="store.toggleDark()"
                     >
                         <img
@@ -71,7 +80,7 @@
                     <a
                         class="nav__cta type-label-lg"
                         href="https://discord.gg/uU9ppcbGB4"
-                        >Submit Level</a
+                        >Submit</a
                     >
                     <a
                          class="nav__cta type-label-lg"

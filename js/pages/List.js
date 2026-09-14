@@ -45,12 +45,12 @@ export default {
                             </div>
                         </div>
                     </div>
-                <table class="list" v-if="list && list.length">
+                <table class="list" v-if="list && list.length" style="margin-top: 1em;">
                     <tr v-for="(item, i) in filteredListDisplay" :key="item.originalIndex">
                         <template v-if="gamemodeAsked && item.level?.gamemode == gamemodeAsked || !gamemodeAsked || gamemodeAsked == 'all' || (gamemodeAsked == 'dual' && item.level?.gamemode)">
                             <td class="level" :class="{ 'active': selected === item.originalIndex, 'error': !item.level }">
                                     <button id="levelThumbnailReal" @click="selected = item.originalIndex" style="background-color: rgb(255 0 0 / 0); width: 100%; margin: 0.5em; display: flex; align-items: center; gap: 1rem;" :style="getLevelThumbnail(item.originalIndex, list)" :class="{ 'active': selected === item.originalIndex, 'error': !item.level, 'golden': item.level?.ullmarker &&  params.get('list') == 'impossible' }" class="btnlvl">
-                                        <p style="white-space: nowrap; color: var(--color-on-primary);">#{{ item.originalIndex + 1 }}</p>
+                                        <p style="white-space: nowrap; color: var(--color-on-background);">#{{ item.originalIndex + 1 }}</p>
                                         <div style="width: inherit;">
                                             <div style="display: flex">
                                                 <span class="type-label-lg">{{ item.level?.name || \`Error (\${item.err}.json)\` }}</span>
