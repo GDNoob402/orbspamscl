@@ -1,12 +1,12 @@
 :root {
-    --color-background: white;
-    --color-on-background: black;
+    --color-background: black;
+    --color-on-background: white;
     --color-background-hover: #e09961;
-    --color-on-background-hover: white;
+    --color-on-background-hover: black;
     --color-primary: #0070FF;
-    --color-on-primary: white;
+    --color-on-primary: black;
     --color-error: #de0000;
-    --color-on-error: white;
+    --color-on-error: black;
     --level-button: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
 
