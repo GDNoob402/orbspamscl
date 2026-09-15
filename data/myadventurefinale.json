@@ -10,5 +10,17 @@
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+        {
+            "user": "Aerubos",
+            "link": "https://www.youtube.com/watch?v=aEXjQTR7XIs",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "shafikdabest",
+            "link": "https://medal.tv/games/geometry-dash/clips/nwHlKSzoa1CIizpEp?invite=cr-MSx3UFAsNzY2MjA5MTMw",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
