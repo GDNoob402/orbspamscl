@@ -111,7 +111,7 @@ export default {
                     <h2>Welcome to the Orb SCL!</h2>
                     <p>Click the levels on the left side to see information about them! For more information about the submission rules check the right side!</p>
                     <p>Make sure to join the discord!</p>
-                    <h2>le daily</h2>
+                    <h2>Event</h2>
                     <p>{{ leDaily[0][0].name }} ({{ leDaily[0][0].id }})</p>
                     <button class="btn" @click="selected = Math.ceil(Math.random() * list.length)">
                         <span class="type-label-lg">I'm feeling lucky</span>
