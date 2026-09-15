@@ -9,5 +9,11 @@
     "password": "Free To Copy",
     "enjoyment": "Cube",
     "records": [
+         {
+            "user": "GMDMIRROR",
+            "link": "https://www.youtube.com/watch?v=y46aNAPVCE0",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
