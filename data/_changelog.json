@@ -1,5 +1,13 @@
 [
      {
+         "action": "a",
+        "levelname": "Shitty Double Troubl",
+        "position": "16",
+		"above": "Ultimate Shafik Endurance",
+		"below": "WHIZSCAPES",
+		"date": "September 14th 2026"
+    },
+    {
          "action": "s",
         "levelname": "Sakupen Elc is dead",
         "position": "23",
