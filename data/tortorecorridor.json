@@ -10,5 +10,11 @@
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+         {
+            "user": "the",
+            "link": "https://youtu.be/ofUsNy9oxVM",
+            "percent": 100,
+            "hz": 0
+         }
     ]
 }
