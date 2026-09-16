@@ -1,0 +1,20 @@
+{
+    "id": 143492142,
+    "name": "Shitty Double Troubl",
+    "author": "daunlabavoi",
+    "creators": ["daunlabavoi, Whizkid05"],
+    "verifier": "GMDMIRROR",
+    "verification": "https://www.youtube.com/watch?v=78aD7n-fTe4",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "gamemode": "dual",
+    "enjoyment": "Cube/Wave",
+    "records": [
+         {
+            "user": "Whizkid05",
+            "link": "https://discord.com/channels/1548528043247673365/1549684391557726228/1549684502056411146",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
