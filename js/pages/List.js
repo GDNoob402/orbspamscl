@@ -187,7 +187,7 @@ export default {
                         <strong>level requirements:</strong>
                     </p>
                     <p>
-                        levels MUST be controlled blue/green orb spam with an angle of 35 degrees or higher
+                        levels MUST be controlled blue/green orb spam with an angle of 15 degrees or higher
                     </p>
                     <p>
                         if the level uses a nong please add that in your submission
