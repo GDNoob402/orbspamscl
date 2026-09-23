@@ -140,7 +140,7 @@ export default {
 					    	<button class="btn" type="submit">Filter!</button>
 						</div>
 					</form>
-                    <button class="btn" @onclick="location.search = undefined">Reset Filter!</button>
+                    <button class="btn" style="font-family: 'Lexend Deca', sans-serif;" @onclick="location.search = undefined">Reset Filter!</button>
                     <h2>Changelog</h2>
                     <main style="display: flex; flex-direction: column; align-items: left; gap: 24px; text-align: left; overflow: hidden; overflow-y: auto; max-height: 300px; width: 700px; border: 3px solid var(--color-primary); border-radius: 5px;">
                         <div style="display: flex; flex-direction: column; align-items: left; gap: 24px; overflow: visible; margin-left: 10px; margin-top: 12px">

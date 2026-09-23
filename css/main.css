@@ -12,19 +12,15 @@
 
 main.dark,
 header.dark {
-    --color-background: black;
+    --color-background: #1c1b1f;
     --color-on-background: white;
-    --color-background-hover: #e09961;
-    --color-on-background-hover: black;
-    --color-primary: #0070FF;
-    --color-on-primary: black;
+    --color-background-hover: #aa55ee;
+    --color-on-background-hover: #1c1b1f;
+    --color-primary: #aa55ee;
+    --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: black;
     --level-button: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-main.dark,
-header.dark {
-    --color-primary: #0070FF;
 }
 html,
 body {
