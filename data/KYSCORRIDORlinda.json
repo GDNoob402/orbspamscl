@@ -10,5 +10,11 @@
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+        {
+            "user": "StSlash",
+            "link": "https://youtu.be/DR4hrPI61_Y?si=39TcJovyNTPnVGzZ",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
