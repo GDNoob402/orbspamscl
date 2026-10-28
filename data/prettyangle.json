@@ -39,6 +39,12 @@
             "link": "https://www.youtube.com/watch?v=yodHo61D3II&start=1",
             "percent": 100,
             "hz": 0
+               },
+           {
+            "user": "rogi",
+            "link": "https://youtu.be/dBoPmUvE2J8",
+            "percent": 100,
+            "hz": 0
         }
     ]
 }
