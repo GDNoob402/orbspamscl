@@ -9,6 +9,12 @@
     "password": "Free To Copy",
     "enjoyment": "Cube",
     "gamemode": "cube",
-    "records": [
+    "records": [,
+        {
+            "user": "Kian",
+            "link": "https://youtu.be/e4OlnC9caYE?is=Npj2uuOiC1VCTpig",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
