@@ -9,5 +9,11 @@
     "password": "Free To Copy",
     "enjoyment": "Cube",
     "records": [
+        {
+            "user": "Aerubos",
+            "link": "https://youtu.be/s3W6QAEEOHo",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
