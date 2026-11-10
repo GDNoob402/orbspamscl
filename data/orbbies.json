@@ -1,3 +1,4 @@
+
 {
     "id": "151486231",
     "name": "Orbbies",
@@ -10,5 +11,11 @@
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+        {
+            "user": "Kian",
+            "link": "https://youtu.be/MBTXwPTEW4M?is=gwJQc_zTtFChfzLq",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
