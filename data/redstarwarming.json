@@ -10,5 +10,11 @@
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+        {
+            "user": "Saladishealthy",
+            "link": "https://www.youtube.com/watch?v=9eimOV7-FuE",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
