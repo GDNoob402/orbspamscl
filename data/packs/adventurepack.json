@@ -1,5 +1,5 @@
 {
     "name": "Adventure Pack",
-    "levels": ["my adventure, my adventure 2, my adventure 4, my adventure 3, my adventure finale"],
+    "levels": ["my adventure", "my adventure 2", "my adventure 4", "my adventure 3", "my adventure", "finale"],
     "color": "#008000"
 }
