@@ -10,5 +10,11 @@
     "enjoyment": "Cube",
     "gamemode": "cube",
     "records": [
+        {
+            "user": "Kian",
+            "link": "https://discord.com/channels/1548528043247673365/1571151721353322516/1571151721353322516",
+            "percent": 100,
+            "hz": 0
+        }
     ]
 }
